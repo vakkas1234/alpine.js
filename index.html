@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
+
+</head>
+<body>
+    <p>Hello everybody.Welcome to my website.I learnt alpine.js.Why Did i learn alpine.js.</p>
+    <p>Because We(Front end dev) have known at least one js framework. Therefore I learnt </p>
+    <p>I make a website.</p>
+    <p>If you click the increment button. Number will increase  </p>
+    <div x-data="{clicked: 0}">
+        <button  @click="clicked++">increment</button>
+        <p x-text="clicked">count</p>
+
+    </div>
+
+</body>
+</html>
